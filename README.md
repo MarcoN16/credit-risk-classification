@@ -21,14 +21,14 @@ The analysis aimed to create a model for assessing loan risk, utilizing a datase
 -	True negative: 621
 
 Calculation of precision, recall, and accuracy revealed superior performance by the model:
--	Precision to identify status = 0: 99% and status = 1: 100%, indicating lower misclassification of false positives.
--	Recall to identify status = 0: 100% and status = 1: 99%, indicating lower misclassification of false negatives.
+-	Precision to identify status = 0 is 99% and status = 1 is 100%, indicating lower misclassification of false positives.
+-	Recall to identify status = 0 is  100% and status = 1 is 99%, indicating lower misclassification of false negatives.
 
 <img width="159" alt="Classification_report" src="https://github.com/MarcoN16/credit-risk-classification/assets/150491559/33e8474c-ae7e-4fd1-956b-55a5ae6d3a92">
 
 
 
-The model exhibited strong performance in discriminating the creditworthiness of borrowers. However, caution is warranted as the results may appear too good to be true. Employing various algorithms and validation analyses, including equalizing sample sizes of the two loan statuses, reinforced the model's reliability for predicting borrower creditworthiness with high accuracy. Nevertheless, continuous testing of new data and a focus on mitigating misclassifications, particularly regarding loans at high risk of default, are essential precautionary measures to minimize potential adverse impacts resulting from incorrect classifications.
+The model exhibited strong performance in discriminating the creditworthiness of borrowers. However, caution is warranted as the results may appear too good to be true. Employing various machine learning algorithms and validation analyses, including equalizing sample sizes of the two loan statuses, reinforced the model's reliability for predicting borrower creditworthiness with high accuracy. Nevertheless, continuous testing of new data and a focus on mitigating misclassifications, particularly regarding loans at high risk of default, are essential precautionary measures to minimize potential adverse impacts resulting from incorrect classifications.
 
 
 # References
