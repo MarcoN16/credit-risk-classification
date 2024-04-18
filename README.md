@@ -4,7 +4,7 @@ In this project, various techniques were employed to train and evaluate a model 
 
 
 ## Split the Data into Training and Testing Sets
-The initial step involved importing the lending_data.csv dataset from the resources folder into a Pandas DataFrame. Subsequently, a labels set (y) was created from the “loan_status” column, while the features (X) DataFrame was extracted from the remaining columns. Upon examining the value counts of the label set, it became evident that there was a significant imbalance between class labels (class 0 = 75036; class 1 = 2500). To mitigate the bias towards the majority class in logistic regression, which may lead to poor detection of the minority class and misleading metrics, resampling techniques were employed to balance the dataset. The data were then split into training and testing sets using train_test_split.
+The initial step involved importing the lending_data.csv dataset from the resources folder into a Pandas DataFrame. Subsequently, a labels set (y) was created from the “loan_status” column, while the features (X) DataFrame was extracted from the remaining columns. Upon examining the value counts of the label set, it became evident that there was a significant imbalance between class labels (class 0 = 75036; class 1 = 2500). To mitigate the bias towards the majority class in logistic regression, which may lead to poor detection of the minority class and misleading metrics, resampling techniques were employed to balance the dataset. The data were then split into training (80% of the data) and testing (20% of the data) sets using train_test_split.
 
 
 ![Balance data set](https://github.com/MarcoN16/credit-risk-classification/assets/150491559/3e1c8006-d92d-411b-82bf-682d72195ea9)
