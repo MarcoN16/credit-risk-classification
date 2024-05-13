@@ -26,8 +26,8 @@ Further calculations of precision, recall, and accuracy underscored the model's 
 - Precision for identifying status = 0: 99% and status = 1: 100%, indicating minimal misclassification of false positives for loans classified as bad.
 -	Recall for identifying status = 0: 100% and status = 1: 99%, indicating minimal misclassification of false negatives.
 
+<img width="432" alt="Classification_report" src="https://github.com/MarcoN16/credit-risk-classification/assets/150491559/5c84fb25-db84-4bb3-bd22-a2db82a3f306">
 
-<img width="159" alt="Classification_report" src="https://github.com/MarcoN16/credit-risk-classification/assets/150491559/33e8474c-ae7e-4fd1-956b-55a5ae6d3a92">
 
 ## Conclusion
 
